@@ -16,24 +16,24 @@ startEl.addEventListener('click', function() {
 })
 var questions = [
     {
-        title:"question 1",
-        choices:["a", "b", "c", "d"],
+        title:"What is 3 * 8",
+        choices:["a 24", "b 10", "c 15", "d 20"],
         answer:"a"
     },
     {
-        title:"question 2",
-        choices:["a", "b", "c", "d"],
+        title:"What is a dog",
+        choices:["a fish", "b sky", "c lake", "d food"],
+        answer:"b"
+    },
+    {
+        title:"What is 10 * 100",
+        choices:["a 1000", "b 200", "c 30", "d 45"],
         answer:"a"
     },
     {
-        title:"question 3",
-        choices:["a", "b", "c", "d"],
-        answer:"a"
-    },
-    {
-        title:"question 4",
-        choices:["a", "b", "c", "d"],
-        answer:"a"
+        title:"what color is the sky",
+        choices:["a purple", "b green", "c black", "d blue"],
+        answer:"d"
     },
 ]
 var index = 0
