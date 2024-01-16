@@ -10,21 +10,21 @@
 <body>
     <div class="scores"><a href="score.html">View Highscor</a></div>
 
-    <div class="timer">Time: <span id="time">0</span></div>
+    <div class="timer">Time: <span id="countdown">0</span></div>
 
     <div class="wrapper">
         <div id="start-screen" class="start">
             <h1>Trey Code Quiz</h1>
             <p>Welcome to my code quiz! Good Luck!</p>
-            <button id="start">Start the Quiz</button>
+            <button id="start" onclick="showQuestions()">Start the Quiz</button>
         </div>
     </div>
     <div id="questions" class="hide">
         <h2 id="questions-title"></h2>
-        <div id="choices" class="choices"></div>
+      <!-- <div id="choices" class="choices"></div> -->
     </div>
-
-    <div id="end-screen" class="hide">
+    <div id="choices" class="hide"></div>
+    <div id="end-screen" hidden="true">
         <h2>Finished!</h2>
         <p>This is your score <span id="score"></span>.</p>
         <P>
@@ -32,7 +32,9 @@
             <button id="submit">Submit</button>
         </P>
     </div> 
-    
+
+    <div id="feedback" class="feedback hide"></div>
+
     <script src="script.js"></script> 
 </body>
 </html>
